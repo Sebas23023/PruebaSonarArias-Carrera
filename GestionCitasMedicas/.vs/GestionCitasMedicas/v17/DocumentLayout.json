@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\nahir\\source\\repos\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\procedimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\procedimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\nahir\\source\\repos\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\nahir\\source\\repos\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\nahir\\source\\repos\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\nahir\\source\\repos\\gestioncitasmedicas\\gestioncitasmedicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\nahir\\source\\repos\\gestioncitasmedicas\\gestioncitasmedicas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\nahir\\source\\repos\\gestioncitasmedicas\\gestioncitasmedicas\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 292,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcedimientosController.cs",
+              "DocumentMoniker": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\ProcedimientosController.cs",
+              "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\ProcedimientosController.cs",
+              "ToolTip": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\ProcedimientosController.cs",
+              "RelativeToolTip": "GestionCitasMedicas\\Controllers\\ProcedimientosController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:44:52.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "GestionCitasMedicas\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:44:42.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctoresController.cs",
+              "DocumentMoniker": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\DoctoresController.cs",
+              "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\DoctoresController.cs",
+              "ToolTip": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\DoctoresController.cs",
+              "RelativeToolTip": "GestionCitasMedicas\\Controllers\\DoctoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:44:32.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "GestionCitasMedicas\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:44:21.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "GestionCitasMedicas\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\AppDBContext.cs",
+              "RelativeToolTip": "GestionCitasMedicas\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:31:36.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Program.cs",
+              "RelativeDocumentMoniker": "GestionCitasMedicas\\Program.cs",
+              "ToolTip": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\Program.cs",
+              "RelativeToolTip": "GestionCitasMedicas\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:28:53.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionCitasMedicas\\appsettings.json",
+              "ToolTip": "C:\\Users\\nahir\\source\\repos\\GestionCitasMedicas\\GestionCitasMedicas\\appsettings.json",
+              "RelativeToolTip": "GestionCitasMedicas\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T12:26:22.578Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
