@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCitasMedicas", "GestionCitasMedicas\GestionCitasMedicas.csproj", "{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionCitasMedicas", "GestionCitasMedicas\GestionCitasMedicas.csproj", "{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectGestionCitasMedicas", "TestProjectGestionCitasMedicas\TestProjectGestionCitasMedicas.csproj", "{A5A1D909-9955-408D-97D2-422244F67804}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B56A31A7-F6E0-40CA-8FDE-FFCC3359884D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A1D909-9955-408D-97D2-422244F67804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A1D909-9955-408D-97D2-422244F67804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A1D909-9955-408D-97D2-422244F67804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A1D909-9955-408D-97D2-422244F67804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

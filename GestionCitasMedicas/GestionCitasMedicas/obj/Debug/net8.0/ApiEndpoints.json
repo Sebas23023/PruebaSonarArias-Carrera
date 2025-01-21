@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cita",
-        "Type": "GestionCitasMedicas.Cita",
+        "Name": "citaDTO",
+        "Type": "GestionCitasMedicas.Controllers.CreateCitaDto",
         "IsRequired": true
       }
     ],
@@ -39,8 +39,8 @@
         "IsRequired": true
       },
       {
-        "Name": "cita",
-        "Type": "GestionCitasMedicas.Cita",
+        "Name": "citaDTO",
+        "Type": "GestionCitasMedicas.Controllers.UpdateCitaDto",
         "IsRequired": true
       }
     ],
@@ -81,8 +81,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "doctor",
-        "Type": "GestionCitasMedicas.Doctor",
+        "Name": "doctorDto",
+        "Type": "GestionCitasMedicas.Controllers.DoctorDto",
         "IsRequired": true
       }
     ],
@@ -102,8 +102,8 @@
         "IsRequired": true
       },
       {
-        "Name": "doctor",
-        "Type": "GestionCitasMedicas.Doctor",
+        "Name": "doctorUpdateDto",
+        "Type": "GestionCitasMedicas.Controllers.DoctorUpdateDto",
         "IsRequired": true
       }
     ],
@@ -144,8 +144,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "paciente",
-        "Type": "GestionCitasMedicas.Paciente",
+        "Name": "pacienteDto",
+        "Type": "GestionCitasMedicas.Controllers.PacienteDto",
         "IsRequired": true
       }
     ],
@@ -165,8 +165,8 @@
         "IsRequired": true
       },
       {
-        "Name": "paciente",
-        "Type": "GestionCitasMedicas.Paciente",
+        "Name": "pacienteUpdateDto",
+        "Type": "GestionCitasMedicas.Controllers.PacienteUpdateDto",
         "IsRequired": true
       }
     ],
@@ -207,8 +207,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "procedimiento",
-        "Type": "GestionCitasMedicas.Procedimiento",
+        "Name": "procedimientoDTO",
+        "Type": "GestionCitasMedicas.Controllers.CreateProcedimientoDto",
         "IsRequired": true
       }
     ],
@@ -228,8 +228,8 @@
         "IsRequired": true
       },
       {
-        "Name": "procedimiento",
-        "Type": "GestionCitasMedicas.Procedimiento",
+        "Name": "procedimientoDTO",
+        "Type": "GestionCitasMedicas.Controllers.UpdateProcedimientoDto",
         "IsRequired": true
       }
     ],

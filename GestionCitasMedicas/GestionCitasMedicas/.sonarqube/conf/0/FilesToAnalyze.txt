@@ -1,0 +1,17 @@
+﻿C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\AppDBContext.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\CitasController.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\DoctoresController.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\PacientesController.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\ProcedimientosController.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250116132317_InitialCreate.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250116132317_InitialCreate.Designer.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Migrations\AppDBContextModelSnapshot.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Program.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.GlobalUsings.g.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.AssemblyInfo.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\appsettings.Development.json
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\appsettings.json
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\GestionCitasMedicas.http
+C:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Properties\launchSettings.json

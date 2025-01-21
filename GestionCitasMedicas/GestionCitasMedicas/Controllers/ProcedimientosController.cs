@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace GestionCitasMedicas.Controllers
@@ -17,19 +18,29 @@ namespace GestionCitasMedicas.Controllers
         [HttpGet]
         public async Task<IActionResult> GetProcedimientos()
         {
-            var procedimientos = await _dbContext.Procedimientos
-                .Include(p => p.Cita)
-                .ToListAsync();
+            var procedimientos = await _dbContext.Procedimientos.ToListAsync();
             return Ok(procedimientos);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateProcedimiento(Procedimiento procedimiento)
+        public async Task<IActionResult> CreateProcedimiento([FromBody] CreateProcedimientoDto procedimientoDTO)
         {
-            if (!_dbContext.Citas.Any(c => c.IdCita == procedimiento.IdCita))
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (!await _dbContext.Citas.AnyAsync(c => c.IdCita == procedimientoDTO.IdCita))
             {
                 return BadRequest("Cita no válida.");
             }
+
+            var procedimiento = new Procedimiento
+            {
+                IdCita = procedimientoDTO.IdCita,
+                Descripcion = procedimientoDTO.Descripcion,
+                Costo = procedimientoDTO.Costo
+            };
 
             _dbContext.Procedimientos.Add(procedimiento);
             await _dbContext.SaveChangesAsync();
@@ -37,11 +48,32 @@ namespace GestionCitasMedicas.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProcedimiento(int id, Procedimiento procedimiento)
+        public async Task<IActionResult> UpdateProcedimiento(int id, [FromBody] UpdateProcedimientoDto procedimientoDTO)
         {
-            if (id != procedimiento.IdProcedimiento)
+            if (!ModelState.IsValid)
             {
-                return BadRequest("El ID del procedimiento no coincide.");
+                return BadRequest(ModelState);
+            }
+
+            var procedimiento = await _dbContext.Procedimientos.FindAsync(id);
+            if (procedimiento == null)
+            {
+                return NotFound("Procedimiento no encontrado.");
+            }
+
+            if (procedimientoDTO.Descripcion != null)
+            {
+                procedimiento.Descripcion = procedimientoDTO.Descripcion;
+            }
+
+            if (procedimientoDTO.Costo.HasValue)
+            {
+                procedimiento.Costo = procedimientoDTO.Costo.Value;
+            }
+
+            if (procedimientoDTO.IdCita.HasValue)
+            {
+                procedimiento.IdCita = procedimientoDTO.IdCita.Value;
             }
 
             _dbContext.Entry(procedimiento).State = EntityState.Modified;
@@ -82,5 +114,32 @@ namespace GestionCitasMedicas.Controllers
         {
             return _dbContext.Procedimientos.Any(e => e.IdProcedimiento == id);
         }
+    }
+
+    public class CreateProcedimientoDto
+    {
+        [Required(ErrorMessage = "El ID de la cita es obligatorio.")]
+        [Range(1, int.MaxValue, ErrorMessage = "El ID de la cita debe ser un número positivo.")]
+        public int IdCita { get; set; }
+
+        [Required(ErrorMessage = "La descripción del procedimiento es obligatoria.")]
+        [StringLength(500, ErrorMessage = "La descripción no puede superar los 500 caracteres.")]
+        public string? Descripcion { get; set; }
+
+        [Required(ErrorMessage = "El costo es obligatorio.")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "El costo debe ser un valor mayor a cero.")]
+        public decimal Costo { get; set; }
+    }
+
+    public class UpdateProcedimientoDto
+    {
+        [Range(1, int.MaxValue, ErrorMessage = "El ID de la cita debe ser un número positivo.")]
+        public int? IdCita { get; set; }
+
+        [StringLength(500, ErrorMessage = "La descripción no puede superar los 500 caracteres.")]
+        public string? Descripcion { get; set; }
+
+        [Range(0.01, double.MaxValue, ErrorMessage = "El costo debe ser un valor mayor a cero.")]
+        public decimal? Costo { get; set; }
     }
 }

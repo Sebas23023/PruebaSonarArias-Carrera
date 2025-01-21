@@ -1,0 +1,14 @@
+ó
+ãC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.MvcApplicationPartsAssemblyInfo.csutf-8É
+xC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.AssemblyInfo.csutf-8è
+ÉC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8Ö
+zC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.GlobalUsings.g.csutf-8^
+NC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Program.cswindows-1252v
+kC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Migrations\AppDBContextModelSnapshot.csutf-8Ç
+wC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250116132317_InitialCreate.Designer.csutf-8w
+nC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250116132317_InitialCreate.csutf-8t
+kC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\ProcedimientosController.csutf-8n
+eC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\DoctoresController.csutf-8o
+fC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\PacientesController.csutf-8k
+bC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\Controllers\CitasController.csutf-8\
+SC:\Users\nahir\source\repos\GestionCitasMedicas\GestionCitasMedicas\AppDBContext.csutf-8
